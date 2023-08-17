@@ -1,0 +1,31 @@
+@media only screen and (max-width:375px) {
+    main{
+       flex-direction: column-reverse; 
+       position: none;
+       top: 0;
+       left: 0;
+       transform: none;
+       margin: 20px;
+       text-align: center;
+    }
+
+    body{
+        height: 800px;
+    }
+
+    .right-side{
+        background-image: url(./images/image-header-mobile.jpg);
+        padding: 100px;
+        border-bottom-right-radius:  0px;
+        border-top-left-radius: 20px;
+    }
+
+    .work{
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .item{
+        text-align: center;
+    }
+}
